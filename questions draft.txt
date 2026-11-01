@@ -1,0 +1,32 @@
+What is the SASA of Alanine?
+What is the solvation value of this Alanine according to Eisenberg?
+What is the SASA of Lysine?
+What is the generally accepted limit of electron hopping according to Marcus Theory?
+What is the chi_1 ptp180 of Arginine in the rotamer library?
+What is the HBE energy of class IV bonds?
+How is interfacial surface area calculated for hydrogen bond energy?
+What is the observed gibbs energy of glycine according to Eisenberg?
+What is the calculated HBE between a Arg residue hydrogen and a Asp residue?
+What is the G_solv for a CR atom in CHARMM?
+
+How are polar vs. nonpolar residues scores according to Eisenberg's solvation parameters?
+How is eMap electron transfer capabilities calculated?
+What is the most likely internal electron transfer pathway calculated by eMap in class 1a ribonucleotide reductase?
+How does eSen-oMol increase the speedup of QM-level accuracy simulations?
+How is preferred orientation captured in Naydenova et. al.?
+How is g_solvation calculated in CHARMM?
+How does functionalization reduce drift in cryo-em? 
+Is there any special treatment for unnatural amino acids in the modeling approaches?
+What are the dominating interactions in protein folding using graph theory?
+How is hydrogen bonding sites related to adsorption?
+
+
+
+What direct quantum modeling scheme should be used for proteins?
+What is the resting potential energy of glucose oxidase?
+What is the direct modeling approach for Van Der Waals on a residue level in proteins?
+How do hydrophobic proteins interact with surfaces?
+What is an effective modeling heuristic for membrane proteins?
+
+
+

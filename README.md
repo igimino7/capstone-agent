@@ -1,4 +1,4 @@
-# capstone-agent — a persistent research agent on Claude Code (ME/CE/AM 295, Lab 4)
+# capstone-agent — a persistent research agent on Claude Code (ME/CE/AM 295, Labs 4–5)
 
 This repository is the agent. Students: in the terminal (after `gh auth login`),
 make your private copy and clone it. Run one line at a time:
@@ -25,6 +25,10 @@ named `capstone-agent`) on github.com, then clone it with GitHub Desktop.
 | `PERMISSIONS.md` | 6 · permissions | The specification the settings enforce |
 | `routine/ROUTINE_PROMPT.md` | 5 · scheduler | The cloud routine's settings and prompt |
 | `digests/` | output | One digest per run, each with provenance |
+| `.claude/skills/code-retriever/` | 4 · skills | Lab 5 retriever: `SKILL.md`, `retrieve.py`, `check_citations.py`, build and eval scripts |
+| `corpus/` | data | The documents the agent may look up, listed in `corpus/manifest.json` |
+| `index/` | data | Chunks, embeddings and keyword index built from `corpus/` (committed) |
+| `eval/` | evidence | Checkpoint C transcript; Part D questions and results |
 
 Parts 1 (where it runs) and 2 (sessions) are not files here: on your laptop they
 are Claude Code itself; in the cloud they are the routine and its transcripts at
@@ -37,4 +41,18 @@ python3 .claude/skills/beam-tools/beam_tools.py check --span-ft 20 --w-klf 0.5 -
 # {"passes": false, "delta_in": 1.293, "limit_in": 0.667, ..., "message": "delta = 1.29 in > 0.67 in; need Ix >= 93 in4", ...}
 ```
 
-Full walkthrough: the Lab 4 tutorial (Claude Code edition), Parts A–H.
+## Retriever (Lab 5, skill #3)
+
+`index/` is committed, built from `corpus/` with `--parser layout` (the default text
+parser split tables; see LOG.md). A fresh clone can answer questions immediately. Rebuild
+only if `corpus/` changes:
+
+```bash
+pip install -r .claude/skills/code-retriever/requirements.txt
+python3 .claude/skills/code-retriever/build_index.py --parser layout
+```
+
+The repository is private because several corpus papers are publisher-licensed and
+`index/` stores the text of every chunk (PERMISSIONS.md §5).
+
+Full walkthroughs: the Lab 4 tutorial (Claude Code edition), Parts A–H, and the Lab 5 handout, Parts A–E.

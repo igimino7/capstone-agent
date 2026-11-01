@@ -12,9 +12,13 @@ about a code value, clause, table or paper from memory: retrieve, cite, check.
 
 ## Procedure — every time
 
+Run both scripts from the repository root exactly as written below: `python3`, then the
+relative path `.claude/skills/code-retriever/...`, with no quotes around the script path and no
+`cd` in front. The permission rules in `.claude/settings.json` match only this form.
+
 1. **Retrieve.**
    ```bash
-   python3 ${CLAUDE_SKILL_DIR}/retrieve.py "<the question, in the user's words>"
+   python3 .claude/skills/code-retriever/retrieve.py "<the question, in the user's words>"
    ```
    It returns the top-5 chunks as JSON, each with `chunk_id`, `doc`, `edition`, `section`,
    `page`, `table` and `text`. If nothing relevant comes back, try once more with the exact
@@ -33,7 +37,7 @@ about a code value, clause, table or paper from memory: retrieve, cite, check.
 
 3. **Check it — before you reply.**
    ```bash
-   python3 ${CLAUDE_SKILL_DIR}/check_citations.py --json '<the Grounded JSON on one line>'
+   python3 .claude/skills/code-retriever/check_citations.py --json '<the Grounded JSON on one line>'
    ```
    Inside the single-quoted JSON, write any apostrophe as `'`.
    - `PASS` or `ABSTAIN`: reply.
