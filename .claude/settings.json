@@ -5,6 +5,10 @@
     "allow": [
       "Bash(python3 .claude/skills/beam-tools/beam_tools.py *)",
       "Bash(python3 .claude/skills/arxiv-digest/arxiv_digest.py *)",
+      "Bash(python3 .claude/skills/code-retriever/retrieve.py *)",
+      "Bash(python3 .claude/skills/code-retriever/check_citations.py *)",
+      "Bash(python .claude/skills/code-retriever/retrieve.py *)",
+      "Bash(python .claude/skills/code-retriever/check_citations.py *)",
       "Bash(git status *)",
       "Bash(git diff *)",
       "Bash(git log *)",
@@ -29,7 +33,11 @@
       "Bash(git push --force *)",
       "Read(./.env)",
       "Read(./.env.*)",
-      "Read(~/.ssh/**)"
+      "Read(~/.ssh/**)",
+      "Edit(corpus/**)",
+      "Edit(index/**)",
+      "WebFetch",
+      "WebSearch"
     ],
     "disableBypassPermissionsMode": "disable"
   }

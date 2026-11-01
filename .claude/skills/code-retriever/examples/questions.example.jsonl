@@ -1,0 +1,3 @@
+{"id": "q01", "kind": "identifier", "question": "What is the web thickness of a W10x49?", "answer": "0.340 in", "chunk_id": "PUT_THE_CHUNK_ID_HERE"}
+{"id": "q11", "kind": "paraphrase", "question": "How much is a floor with a plaster ceiling allowed to sag under live load?", "answer": "L/360", "chunk_id": "PUT_THE_CHUNK_ID_HERE"}
+{"id": "q21", "kind": "not_in_corpus", "question": "What does Eurocode 3 give as the deflection limit for floors?", "answer": null, "chunk_id": null}

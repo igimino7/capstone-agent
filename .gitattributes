@@ -1,0 +1,7 @@
+*.pdf      binary
+*.npy      binary
+index/**   -text
+*.json     text eol=lf
+*.jsonl    text eol=lf
+*.md       text eol=lf
+*.py       text eol=lf

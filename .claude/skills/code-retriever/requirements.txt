@@ -1,0 +1,7 @@
+# code-retriever (Lab 5). Install in YOUR terminal, in the repo's virtual environment —
+# not through Claude (settings.json denies pip install to the agent):
+#   pip install -r .claude/skills/code-retriever/requirements.txt
+numpy>=1.24
+pypdf>=4.0,<6        # 6.x raises "More than one /FontFile" on some older journal PDFs (Eisenberg 1986)
+pdfplumber>=0.11
+sentence-transformers>=3.0   # pulls in torch; first build downloads BAAI/bge-small-en-v1.5 (~130 MB) once

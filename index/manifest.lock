@@ -1,0 +1,83 @@
+{
+  "built": "2026-11-01T11:10:13",
+  "parser": "layout",
+  "embedder": "st",
+  "model": "BAAI/bge-small-en-v1.5",
+  "chunk_words": 350,
+  "overlap": 50,
+  "n_chunks": 450,
+  "files": {
+    "eisenberg_solvation.pdf": "fab6d0f0c32911eeebd214f59ad884cf7ad397563739303d3025ca8f85599522",
+    "gayvert2026_emap2.pdf": "a1fa52a794fcfad2c946e209f4a0e73ada9bc8d841d78863053f44ba1a4bc6ab",
+    "hossen_hydrophobicity_adsorption.pdf": "d6f39941c81b0ac4ed4e9caaaaeb55a3fff1253318a3454659ae746c7e0e5a33",
+    "jacobs2001_flexibility_graph.pdf": "519411abdd1ef4a03fd99f9f1b94402b751d5e2974f3c34516c9a0c3d0681266",
+    "krivov2009_scwrl4.pdf": "877925dcffad5b5133cc084bc30c235a88628b3f2605db9e6df643654bb60abe",
+    "lazaridis1999_eef1.pdf": "2b933912f383c81218f4c2205068fe4104368fbdfb67a2f629d9d707a8e0cf2d",
+    "lovell2000_rotamer_library.pdf": "c2de48ae4b5cddae34d8e3fdd6bb5bb5596cce489ec2405662ecf5c6cc662f73",
+    "malik2022_hbond_protein_dna.pdf": "ea864d5f98c299e36c4fed3c9c9fed122d99880856eaa025b68f8bfb0b5c83d1",
+    "mendes1999_flexible_rotamer.pdf": "65cba3f777c5d9442a4939d31e9fb967d2fdf9458d1c866803115ed7621af046",
+    "naydenova2019_graphene_cryoem.pdf": "d98ddd79412c1afa6abc372a37f5a27ea5edf0fe9239f375054d45b35c3e01d4",
+    "tien_sasa.pdf": "b793369d4ffdb5a8fa9740cb897164f73b9d4d93696f2967188f02bdcf55ad1b",
+    "ulissi_enzymes.pdf": "268ee181e318476aaed669dc86542c3c9b9c22bc4018273ecdca9ad26cdc4141",
+    "wb97m-v.pdf": "75780d1d640e9ea9e6513bdf561547860466503ac8d3a1c9102140e1f640d127",
+    "zhao_ligand_enzyme_review.pdf": "f200e21e2dd3b9183b054391ab1bb60dffa3be6cafc76f58d04d31e4c0941159"
+  },
+  "documents": {
+    "eisenberg_solvation.pdf": {
+      "name": "Eisenberg & McLachlan, Solvation energy in protein folding and binding",
+      "edition": "1986"
+    },
+    "gayvert2026_emap2.pdf": {
+      "name": "Gayvert et al., eMap 2.0: electron transfer pathways in proteins",
+      "edition": "2026"
+    },
+    "hossen_hydrophobicity_adsorption.pdf": {
+      "name": "Hossen, Nematipour & Bilodeau, Molecular-scale hydrophobicity and adsorption thermodynamics on hydrophobic-charged surfaces",
+      "edition": "2026"
+    },
+    "jacobs2001_flexibility_graph.pdf": {
+      "name": "Jacobs et al., Protein flexibility predictions using graph theory",
+      "edition": "2001"
+    },
+    "krivov2009_scwrl4.pdf": {
+      "name": "Krivov, Shapovalov & Dunbrack, Side-chain conformations with SCWRL4",
+      "edition": "2009"
+    },
+    "lazaridis1999_eef1.pdf": {
+      "name": "Lazaridis & Karplus, Effective energy function for proteins in solution (EEF1)",
+      "edition": "1999"
+    },
+    "lovell2000_rotamer_library.pdf": {
+      "name": "Lovell et al., The penultimate rotamer library",
+      "edition": "2000"
+    },
+    "malik2022_hbond_protein_dna.pdf": {
+      "name": "Malik & Guo, Protein-DNA interactions from hydrogen bond energy-based comparative protein-ligand analyses",
+      "edition": "2022"
+    },
+    "mendes1999_flexible_rotamer.pdf": {
+      "name": "Mendes et al., Improved modeling of side-chains with rotamer-based methods: a flexible rotamer model",
+      "edition": "1999"
+    },
+    "naydenova2019_graphene_cryoem.pdf": {
+      "name": "Naydenova, Peet & Russo, Multifunctional graphene supports for electron cryomicroscopy",
+      "edition": "2019"
+    },
+    "tien_sasa.pdf": {
+      "name": "Tien et al., Maximum allowed solvent accessibilities of residues in proteins",
+      "edition": "2013"
+    },
+    "ulissi_enzymes.pdf": {
+      "name": "Gao et al. (Ulissi group), Quantum-accurate atomistic modeling of enzyme catalysis using a machine learned potential",
+      "edition": "2025"
+    },
+    "wb97m-v.pdf": {
+      "name": "Mardirossian & Head-Gordon, wB97M-V density functional",
+      "edition": "2016"
+    },
+    "zhao_ligand_enzyme_review.pdf": {
+      "name": "Zhao, Cao & Zhang, Computational methods for protein-ligand binding site prediction",
+      "edition": "2020"
+    }
+  }
+}

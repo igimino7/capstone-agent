@@ -1,0 +1,8 @@
+[
+  {"name": "ASCE 7-22 Chapter 12", "edition": "2022", "source": "ASCE, purchased copy",
+   "licence": "licensed", "file": "ASCE7-22_ch12.pdf"},
+  {"name": "Smith et al. 2023, Fatigue of welded joints", "edition": "2023", "source": "doi:10.xxxx/xxxxx (open access)",
+   "licence": "open", "file": "smith2023_fatigue.pdf"},
+  {"name": "Lab tensile-test protocol", "edition": "v3", "source": "our lab, internal",
+   "licence": "internal", "file": "lab_tensile_protocol_v3.pdf"}
+]
